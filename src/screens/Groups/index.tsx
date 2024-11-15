@@ -1,11 +1,9 @@
-import { StyleSheet, View, Text } from 'react-native';
-
-import { Container, Title } from './styles';
+import * as S from './styles';
 
 export function Groups(){
     return (
-        <Container>
-            <Title> Romildo Jr. </Title>
-        </Container>
+        <S.Container>
+            Romildo Jr.
+        </S.Container>
     )
 }
